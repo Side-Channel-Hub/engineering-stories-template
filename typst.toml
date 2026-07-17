@@ -1,0 +1,12 @@
+[package]
+name = "engineering-stories-template"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Julius Walczynski <docclock85@gmail.com>"]
+license = "MIT"
+description = "Template for The Engineering Stories Zine "
+repository = "https://github.com/Side-Channel-Hub/engineering-stories-template"
+keywords = ["template", "zine", "story"]
+disciplines = ["engineering", "literature"]
+categories = ["book", "flyer"]
+exclude = []
