@@ -16,7 +16,10 @@ cd ..
 
 You include it with
 ```typst
-#import "engineering-stories-template/lib.typ": header;
+#import "engineering-stories-template/lib.typ": style, header;
 
+#show: style
 #header([Name of your Story], [Your Name])
 ```
+## Example
+![template example](assets/main.png)

@@ -1,24 +1,28 @@
-#set page(
-  paper: "a4",
-  margin: (
-    x: 2.8cm,
-    y: 3cm,
-  ),
-)
+#let style(body) = {
+  set page(
+    paper: "a4",
+    margin: (
+      x: 2.8cm,
+      y: 3cm,
+    ),
+  )
 
-#set text(
-  font: "Libertinus Serif",
-  size: 11pt,
-  lang: "en",
-)
+  set text(
+    font: "Libertinus Serif",
+    size: 11pt,
+    lang: "en",
+  )
 
-#set par(
-  justify: true,
-  leading: 0.7em,
-  first-line-indent: 1.2em,
-)
+  set par(
+    justify: true,
+    leading: 0.7em,
+    first-line-indent: 1.2em,
+  )
 
-#set heading(numbering: none)
+  set heading(numbering: none)
+
+  body
+}
 
 #let header(title, author) = [
   #align(center)[
